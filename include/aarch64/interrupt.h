@@ -10,4 +10,6 @@ void cpu_intr_enable(void);
 /*! \brief Check if local CPU interrupts are disabled. */
 bool cpu_intr_disabled(void);
 
+void cpu_intr_init(void);
+
 #endif /* !_AARCH64_INTERRUPT_H_ */
